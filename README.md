@@ -4,14 +4,15 @@
 
 # Overview
 
-- The goal of this study was to use a neural network to assist a non-profit in identifying investment options for fundraising.
-- This project compromised of the following 3 steps:
+The goal of this study was to use a neural network to assist a non-profit in identifying investment options for fundraising.
 
- Preprocessing the data for the neural network
+This project compromised of the following 3 steps:
 
- Compile, Train and Evaluate the Model
+ - Preprocessing the data for the neural network
 
- Optimizing the model
+ - Compile, Train and Evaluate the Model
+
+ - Optimizing the model
 
 # Results
 
@@ -23,33 +24,33 @@
 
 Feature variables for the model:
 
-    APPLICATION_TYPE
+  APPLICATION_TYPE
     
-    AFFILIATION
+  AFFILIATION
     
-    CLASSIFICATION
+  CLASSIFICATION
     
-    USE_CASE
+  USE_CASE
     
-    ORGANIZATION
+  ORGANIZATION
     
-    STATUS
+  STATUS
     
-    INCOME_AMT
+  INCOME_AMT
     
-    SPECIAL_CONSIDERATIONS
+  SPECIAL_CONSIDERATIONS
     
-    ASK_AMT
+  ASK_AMT
     
 Removed variables from the input data:
 
-    EIN
+  EIN
     
-    NAME
+  NAME
     
 # Compiling, Training, and Evaluating the Model
 
-Neurons, layers, and activation functions
+- Neurons, layers, and activation functions
 
 layer1 = 80 with activation= relu
 
@@ -68,8 +69,8 @@ What steps were taken to try and increase model performance?
 - Adding hidden layers, adjusting the activation type, changing the number of epochs, and modifying the number of neurons in each layer were some of the measures I did to improve the model's accuracy.
 
 
-
 # Summary
+
 - We might utilize a supervised machine learning model like the Random Forest Classifier to mix a number of decision trees to get a categorized output and compare its performance to our deep learning model because we are in a binary classification situation.
 
 - The model appears to have reached its maximum at 73 percent accuracy, with minimal optimization efforts improving the model's ability to determine whether an application was successful.
