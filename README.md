@@ -7,9 +7,11 @@
 - The goal of this study was to use a neural network to assist a non-profit in identifying investment options for fundraising.
 - This project compromised of the following 3 steps:
 
-Preprocessing the data for the neural network
-Compile, Train and Evaluate the Model
-Optimizing the model
+- Preprocessing the data for the neural network
+
+- Compile, Train and Evaluate the Model
+
+- Optimizing the model
 
 # Results
 
